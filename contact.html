@@ -1,0 +1,472 @@
+```html
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Contact & Get a Quote | Trent Digital Labs</title>
+
+    <meta
+        name="description"
+        content="Contact Trent Digital Labs about a new website, redesign, domain registration or hosting setup."
+    >
+
+    <meta name="theme-color" content="#070b14">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Accessibility: Skip navigation -->
+    <a class="skip-link" href="#main">
+        Skip to content
+    </a>
+
+
+    <!-- ================================
+         HEADER & NAVIGATION
+    ================================= -->
+
+    <header class="site-header">
+        <div class="container nav-wrap">
+
+            <a class="brand" href="index.html">
+                <img
+                    src="assets/trent-digital-labs-logo.jpeg"
+                    alt="Trent Digital Labs logo"
+                >
+
+                <span>
+                    TRENT
+                    <small>DIGITAL LABS</small>
+                </span>
+            </a>
+
+            <button
+                class="menu-toggle"
+                type="button"
+                aria-expanded="false"
+                aria-controls="primary-nav"
+            >
+                Menu ☰
+            </button>
+
+            <nav
+                class="nav-links"
+                id="primary-nav"
+                aria-label="Main navigation"
+            >
+                <a href="index.html">Home</a>
+                <a href="services.html">Services</a>
+                <a href="pricing.html">Pricing</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="about.html">About</a>
+                <a href="faqs.html">FAQs</a>
+            </nav>
+
+            <a class="nav-cta" href="contact.html" aria-current="page">
+                Get a quote
+                <span aria-hidden="true">↗</span>
+            </a>
+
+        </div>
+    </header>
+
+
+    <!-- ================================
+         MAIN CONTENT
+    ================================= -->
+
+    <main id="main">
+
+        <!-- Page introduction -->
+        <section class="page-hero">
+            <div class="container">
+
+                <div class="breadcrumbs">
+                    <a href="index.html">Home</a>
+                    / Contact
+                </div>
+
+                <span class="eyebrow">
+                    Let's talk
+                </span>
+
+                <h1>
+                    Tell us about
+                    <span class="gradient-text">your project.</span>
+                </h1>
+
+                <p class="lead">
+                    Share a few details about your business and what you
+                    need. The more we understand, the more useful our
+                    recommendations can be.
+                </p>
+
+            </div>
+        </section>
+
+
+        <!-- Contact form and supporting information -->
+        <section class="section">
+            <div class="container split">
+
+                <!-- ================================
+                     QUOTE REQUEST FORM
+                ================================= -->
+
+                <div class="card">
+
+                    <h2>Request a quote</h2>
+
+                    <p class="muted">
+                        Tell us about your project using the form below.
+                        We'll use your answers to understand your
+                        requirements and discuss the next steps.
+                    </p>
+
+                    <form id="quote-form">
+
+                        <div class="form-grid">
+
+                            <!-- Client name -->
+                            <div class="field">
+
+                                <label for="name">
+                                    Your name *
+                                </label>
+
+                                <input
+                                    id="name"
+                                    name="name"
+                                    type="text"
+                                    autocomplete="name"
+                                    required
+                                >
+
+                            </div>
+
+
+                            <!-- Business name -->
+                            <div class="field">
+
+                                <label for="business">
+                                    Business name
+                                </label>
+
+                                <input
+                                    id="business"
+                                    name="business"
+                                    type="text"
+                                    autocomplete="organization"
+                                >
+
+                            </div>
+
+
+                            <!-- Client email -->
+                            <div class="field">
+
+                                <label for="email">
+                                    Email address *
+                                </label>
+
+                                <input
+                                    id="email"
+                                    name="email"
+                                    type="email"
+                                    autocomplete="email"
+                                    required
+                                >
+
+                            </div>
+
+
+                            <!-- Optional telephone -->
+                            <div class="field">
+
+                                <label for="phone">
+                                    Phone number (optional)
+                                </label>
+
+                                <input
+                                    id="phone"
+                                    name="phone"
+                                    type="tel"
+                                    autocomplete="tel"
+                                >
+
+                            </div>
+
+
+                            <!-- Requested service -->
+                            <div class="field">
+
+                                <label for="service">
+                                    What do you need? *
+                                </label>
+
+                                <select
+                                    id="service"
+                                    name="service"
+                                    required
+                                >
+                                    <option value="">
+                                        Choose a service
+                                    </option>
+
+                                    <option value="New website">
+                                        New website
+                                    </option>
+
+                                    <option value="Website redesign">
+                                        Website redesign
+                                    </option>
+
+                                    <option value="Domain registration support">
+                                        Domain registration support
+                                    </option>
+
+                                    <option value="Hosting / domain connection">
+                                        Hosting / domain connection
+                                    </option>
+
+                                    <option value="Other / not sure yet">
+                                        Other / not sure yet
+                                    </option>
+                                </select>
+
+                            </div>
+
+
+                            <!-- Estimated budget -->
+                            <div class="field">
+
+                                <label for="budget">
+                                    Estimated budget
+                                </label>
+
+                                <select
+                                    id="budget"
+                                    name="budget"
+                                >
+                                    <option value="">
+                                        Prefer to discuss
+                                    </option>
+
+                                    <option value="Under £300">
+                                        Under £300
+                                    </option>
+
+                                    <option value="£300–£600">
+                                        £300–£600
+                                    </option>
+
+                                    <option value="£600–£1,000">
+                                        £600–£1,000
+                                    </option>
+
+                                    <option value="£1,000+">
+                                        £1,000+
+                                    </option>
+                                </select>
+
+                            </div>
+
+
+                            <!-- Project description -->
+                            <div class="field full">
+
+                                <label for="details">
+                                    Tell us about your project *
+                                </label>
+
+                                <textarea
+                                    id="details"
+                                    name="details"
+                                    rows="6"
+                                    required
+                                    placeholder="What does your business do? Which pages or features do you need? Do you have a website already?"
+                                ></textarea>
+
+                            </div>
+
+
+                            <!-- Form submission -->
+                            <div class="field full">
+
+                                <button class="btn" type="submit">
+                                    Prepare enquiry email
+                                    <span aria-hidden="true">↗</span>
+                                </button>
+
+                                <p
+                                    id="form-status"
+                                    class="status-note"
+                                    role="status"
+                                    aria-live="polite"
+                                ></p>
+
+                                <p class="smallprint">
+                                    Submitting opens your email application
+                                    with your enquiry prepared. You will
+                                    need to send the email yourself.
+                                    This form does not store submissions
+                                    in a database.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </form>
+
+                </div>
+
+
+                <!-- ================================
+                     SUPPORTING INFORMATION
+                ================================= -->
+
+                <aside>
+
+                    <span class="eyebrow">
+                        Before you enquire
+                    </span>
+
+                    <h2>
+                        A few useful details help us plan.
+                    </h2>
+
+                    <p class="muted">
+                        You don't need to have everything figured out.
+                        These details can simply help us understand
+                        where to start.
+                    </p>
+
+                    <ul class="check-list">
+
+                        <li>
+                            What your business does and who your
+                            customers are
+                        </li>
+
+                        <li>
+                            Whether you already have a logo, domain
+                            or website
+                        </li>
+
+                        <li>
+                            Which pages and features matter most
+                        </li>
+
+                        <li>
+                            Your preferred launch date and budget
+                        </li>
+
+                    </ul>
+
+
+                    <div class="notice">
+                        No final price or delivery date is confirmed
+                        until the project requirements have been
+                        discussed and agreed.
+                    </div>
+
+
+                    <h3 style="margin-top: 28px;">
+                        Not sure where to start?
+                    </h3>
+
+                    <p class="muted">
+                        That's absolutely fine. Select
+                        <strong>Other / not sure yet</strong>
+                        in the form and tell us a little about
+                        your business. We'll take it from there.
+                    </p>
+
+                </aside>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- ================================
+         FOOTER
+    ================================= -->
+
+    <footer class="site-footer">
+        <div class="container">
+
+            <div class="footer-top">
+
+                <!-- Brand -->
+                <div>
+
+                    <a class="brand" href="index.html">
+
+                        <img
+                            src="assets/trent-digital-labs-logo.jpeg"
+                            alt=""
+                        >
+
+                        <span>
+                            TRENT
+                            <small>DIGITAL LABS</small>
+                        </span>
+
+                    </a>
+
+                    <p class="muted">
+                        Modern websites for ambitious local businesses.
+                    </p>
+
+                </div>
+
+
+                <!-- Footer navigation -->
+                <nav
+                    class="footer-links"
+                    aria-label="Footer navigation"
+                >
+                    <a href="services.html">Services</a>
+                    <a href="pricing.html">Pricing</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="contact.html" aria-current="page">Contact</a>
+                    <a href="privacy.html">Privacy</a>
+                    <a href="terms.html">Terms</a>
+                    <a href="cookies.html">Cookies</a>
+                </nav>
+
+            </div>
+
+
+            <!-- Copyright -->
+            <div class="footer-bottom">
+
+                <span>
+                    &copy;
+                    <span data-year></span>
+                    Trent Digital Labs. All rights reserved.
+                </span>
+
+                <span>
+                    Designed with clarity. Built for your next step.
+                </span>
+
+            </div>
+
+        </div>
+    </footer>
+
+
+    <!-- Website JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
+```
