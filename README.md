@@ -8,9 +8,9 @@
 - `about.html` — About
 - `contact.html` — Quote enquiry form
 - `faqs.html` — FAQs
-- `privacy.html` — Privacy policy template
-- `terms.html` — Terms and conditions template
-- `cookies.html` — Cookie information template
+- ` ` — Privacy policy template
+- ` ` — Terms and conditions template
+- ` ` — Cookie information template
 
 ## Before publishing
 1. Open `script.js` and replace `YOUR_EMAIL_HERE` with a real, monitored business email address.
